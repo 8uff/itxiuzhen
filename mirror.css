@@ -1,0 +1,33 @@
+.content
+{
+	background-color:#68cdd5;
+}
+.logo
+{
+	display:block;
+	margin:0 auto;
+}
+p
+{
+	margin:10% 15%;
+	text-align:center;
+}
+.control
+{
+	margin:0 auto;
+	width:80%;
+	text-align:center;
+}
+.button1
+{
+	float:left;
+}
+.button2
+{
+	float:right;
+}
+.clear
+{
+	clear: both;
+}
+}
