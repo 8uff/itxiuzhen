@@ -1,6 +1,7 @@
 .content
 {
 	background-color:#68cdd5;
+	color:#fff;
 }
 .logo
 {
@@ -9,25 +10,35 @@
 }
 p
 {
-	margin:10% 15%;
+	margin:2rem 0;
 	text-align:center;
 }
 .control
 {
-	margin:0 auto;
+	margin:20% auto;
 	width:80%;
 	text-align:center;
+	border:solid #fff 1px;
 }
 .button1
 {
 	float:left;
 }
+.button1 p
+{
+	margin:0;
+}
 .button2
 {
 	float:right;
 }
+.button2 p
+{
+	margin:0;
+}
 .clear
 {
 	clear: both;
+	margin-bottom: 2rem;
 }
 }
