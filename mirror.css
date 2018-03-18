@@ -1,7 +1,12 @@
+body
+{
+	font-size:62.5%;
+}
 .content
 {
 	background-color:#68cdd5;
 	color:#fff;
+	font:1.6rem 宋体;
 }
 .logo
 {
@@ -15,30 +20,22 @@ p
 }
 .control
 {
-	margin:20% auto;
+	margin:0 auto;
+	padding:10rem 0;
 	width:80%;
 	text-align:center;
-	border:solid #fff 1px;
+	border:solid #fff 1rem;
 }
 .button1
 {
 	float:left;
 }
-.button1 p
-{
-	margin:0;
-}
 .button2
 {
 	float:right;
 }
-.button2 p
-{
-	margin:0;
-}
 .clear
 {
 	clear: both;
-	margin-bottom: 2rem;
 }
 }
