@@ -2,4 +2,32 @@ body
 {
 	font-size:625%;
 	background: #68cdd5;
+	margin:0；
+}
+header
+{
+	color:#fff;
+	font:0.1rem 黑体;
+}
+main
+{
+	color:#fff;
+	font:0.1rem 黑体;
+}
+#submit
+{
+	display:block;
+	width:100%;
+}
+input
+{
+	color:#68cdd5;
+	height:0.75rem;
+	display:block;
+	font:0.1rem 黑体;
+}
+.phone
+{
+	background: #fff url("phone.png") no-repeat;
+	height:75px;
 }

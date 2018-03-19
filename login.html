@@ -8,15 +8,22 @@
 <link href = "login.css" rel = "stylesheet" type = "text/css">
 </head>
 <body>
+<form method="post">
 <header>
 <span>注册</span>
 <span>登录</span>
 <span>关闭</span>
 </header>
 <main>
-<input type = "text" title = "请输入电话号码">
+<div class = "phone">
+<input type = "text" value = "请输入手机号" name = "phone">
+</div>
+<div class="pwd">
+<input type = "password"  name = "password" value = "请输入密码">
+</div>
+<input type = "button" id = "submit" name = "submit" value = "登录">
+<a id = "forgetpassword" href="">忘记密码</a>
 </main>
-<form method="post">
 </form>
 </body>
 </html>
