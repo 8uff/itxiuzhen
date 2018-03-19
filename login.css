@@ -1,13 +1,39 @@
+html,
 body
 {
 	font-size:625%;
+	width:100%;
 	background: #68cdd5;
-	margin:0；
+	margin:0;
 }
 header
 {
 	color:#fff;
+	width:100%;
+	height:0.5rem;
+	vertical-align:middle;
 	font:0.1rem 黑体;
+}
+.text1
+{
+	position:absolute;
+	left:0;
+	text-align:left;
+	font-size:0.2rem;
+}
+.text2
+{
+	text-align:center;
+	position:absolute;
+	left:50%;
+	font-size:0.25rem;
+}
+.text3
+{
+
+	position:absolute;
+	right:0;
+	font-size:0.2rem;
 }
 main
 {
