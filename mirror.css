@@ -2,12 +2,14 @@ html,
 body
 {
 	font-size:625%;
+	margin:0;
+	background-color:#68cdd5;
 }
 .content
 {
-	background-color:#68cdd5;
 	color:#fff;
 	font-size:0.3rem;
+	margin:0 auto;
 }
 .back
 {
@@ -19,17 +21,20 @@ body
 	margin:0 auto;
 	width:2.33rem;
 }
-.control
+.main
 {
 	margin:0 auto;
-	padding:1rem 0;
 	width:80%;
 	text-align:center;
 }
-.control p
+.main p
 {
 	margin:1rem 0;
 	text-align:center;
+}
+.control
+{
+	margin:1.36rem auto;
 }
 .button1
 {
