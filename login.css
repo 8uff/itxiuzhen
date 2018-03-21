@@ -1,9 +1,9 @@
-html,
+html,input,
 body
 {
 	font-size:625%;
 	width:100%;
-	background: #68cdd5;
+	background: #e6e6e6;
 	margin:0;
 	padding: 0;
 }
@@ -13,6 +13,7 @@ header
 	width:100%;
 	height:0.5rem;
 	font:0.1rem 黑体;
+	background: #68cdd5;
 }
 header span
 {
@@ -20,20 +21,20 @@ header span
 	line-height:0.5rem;
 	text-align: center;
 }
-.text1
+.reg
 {
 	position:absolute;
 	left:0.1rem;
 	top:0;
 	font-size:0.2rem;
 }
-.text2
+.login
 {
 	width:100%;
 	display: inline-block;
 	font-size:0.25rem;
 }
-.text3
+.close
 {
 	position:absolute;
 	right:0.1rem;
@@ -45,36 +46,63 @@ main
 	color:#fff;
 	font:0.1rem 黑体;
 }
-#submit
-{
-	display:block;
-	width:100%;
-}
 .phone
 {
 	background: #fff url("img/phone.png") no-repeat left center;
-	padding:0 1.32rem;
+	padding-left:1.32rem;
 	height: 1rem;
 	margin: 0.1rem 0;
 }
 .pwd
 {
 	background: #fff url("img/pwd.png") no-repeat left center;
-	padding:0 1.32rem;
+	padding-left:1.32rem;
 	height: 1rem;
 	margin: 0.1rem 0;
 }
 input
 {
-	color:#68cdd5;
-	height:0.8rem;
-	display:inline-block;
-	line-height: 0.8rem;
-	font:0.5rem 黑体;
+	color:#000;
+	height:1rem;	
+	font:0.3rem 黑体;
 	border:0;
+	background: #fff;
+	width:100%;
 }
+ input::-webkit-input-placeholder
+{
+   color:#ccc;
+}
+   input::-moz-placeholder{   /* Mozilla Firefox 19+ */
+   color:#ccc;
+}
+input:-moz-placeholder
+{    /* Mozilla Firefox 4 to 18 */
+   color:#ccc;
+}
+input:-ms-input-placeholder
+{  /* Internet Explorer 10-11 */ 
+   color:#ccc;
+ }
 input:focus
 {
 	border:0;
-	background-color:red;
+	outline: none;
 }
+button
+{
+	color:#fff;
+	height:1rem;
+	width:100%;
+	display:block;
+	background: #68cdd5;
+	font:0.25rem 黑体;
+	border:0;
+}
+a
+{
+	text-align:right;
+	color:#68cdd5;
+	display:block;
+	font:0.2rem 黑体;
+	margin:0.2rem;
