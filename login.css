@@ -30,10 +30,19 @@ header span
 }
 .login
 {
+	position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	bottom: 0;
+	font-size:0.25rem;
+}
+/*.login
+{
 	width:100%;
 	display: inline-block;
 	font-size:0.25rem;
-}
+}*/
 .close
 {
 	position:absolute;
