@@ -5,34 +5,39 @@ body
 	width:100%;
 	background: #68cdd5;
 	margin:0;
+	padding: 0;
 }
 header
 {
 	color:#fff;
 	width:100%;
 	height:0.5rem;
-	vertical-align:middle;
 	font:0.1rem 黑体;
+}
+header span
+{
+	height:0.5rem;
+	line-height:0.5rem;
+	text-align: center;
 }
 .text1
 {
 	position:absolute;
-	left:0;
-	text-align:left;
+	left:0.1rem;
+	top:0;
 	font-size:0.2rem;
 }
 .text2
 {
-	text-align:center;
-	position:absolute;
-	left:50%;
+	width:100%;
+	display: inline-block;
 	font-size:0.25rem;
 }
 .text3
 {
-
 	position:absolute;
-	right:0;
+	right:0.1rem;
+	top:0;
 	font-size:0.2rem;
 }
 main
@@ -45,15 +50,31 @@ main
 	display:block;
 	width:100%;
 }
+.phone
+{
+	background: #fff url("img/phone.png") no-repeat left center;
+	padding:0 1.32rem;
+	height: 1rem;
+	margin: 0.1rem 0;
+}
+.pwd
+{
+	background: #fff url("img/pwd.png") no-repeat left center;
+	padding:0 1.32rem;
+	height: 1rem;
+	margin: 0.1rem 0;
+}
 input
 {
 	color:#68cdd5;
-	height:0.75rem;
-	display:block;
-	font:0.1rem 黑体;
+	height:0.8rem;
+	display:inline-block;
+	line-height: 0.8rem;
+	font:0.5rem 黑体;
+	border:0;
 }
-.phone
+input:focus
 {
-	background: #fff url("phone.png") no-repeat;
-	height:75px;
+	border:0;
+	background-color:red;
 }
