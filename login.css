@@ -21,54 +21,37 @@ header span
 {
 	height:0.5rem;
 	line-height:0.5rem;
-	display: inline-block;
-	margin: 0 1%;
-}
-
-.reg
-{
-	width:28%;
-	text-align: left;
-	float: left;
-}
-.login
-{
-	width:38%;
-	font-size:0.25rem;
 	text-align: center;
-	float: left;
-}
+	background: #68cdd5;
 
-.close
-{
-	width:28%;
-	text-align: right;
-	float: left;
 }
-/*
 .reg
 {
-	position:absolute;
+	position:fixed;
 	left:0.1rem;
 	top:0;
 	font-size:0.2rem;
+	z-index: 1;
+	
 }
 .login
 {
-	position:absolute;
+	position:fixed;
 	left:0;
 	right:0;
 	top:0;
 	bottom: 0;
 	font-size:0.25rem;
+	/*margin:0 auto;*/
 }
 .close
 {
-	position:absolute;
+	position:fixed;
 	right:0.1rem;
 	top:0;
 	font-size:0.2rem;
-}*/
+	z-index: 1;
+}
 
 main
 {
