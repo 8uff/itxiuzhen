@@ -1,0 +1,38 @@
+body
+{
+	font:625% "Microsoft YaHei", sans-serif;
+	width:100%;
+	background: #fff;
+	margin: 0;
+	padding: 0;
+}
+.content
+{
+	font:.2rem "Microsoft YaHei", sans-serif;
+}
+a
+{
+	font:.2rem "Microsoft YaHei", sans-serif;
+	display: inline-block;
+	height: .8rem;
+	line-height: .8rem; 
+}
+span
+{
+	font:.2rem "Microsoft YaHei", sans-serif;
+	color: #fff;
+	height: .8rem;
+	line-height: .8rem;
+	display: inline-block;
+}
+header
+{
+	background: #68cdd5;
+	width:100%;
+	height:	8rem;
+	position: fixed;
+	top:0;
+	left:0;
+	margin:0;
+	padding:0;
+}
