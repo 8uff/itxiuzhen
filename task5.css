@@ -64,8 +64,8 @@ nav h1
 /*:: article ::*/
 .person
 {
-	background: #fff url(img/bgdoc.png) no-repeat;
-	background-size: auto 100%;
+	background: #000 url(img/bgdoc.png) no-repeat;
+	background-size:cover;
 	height: 3.27rem;
     position: relative;
 }
