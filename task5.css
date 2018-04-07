@@ -17,6 +17,7 @@ body
 	width: 100%;
 	font-size:.18rem;
 	height: 100%;
+	padding-bottom: .44rem;
 }
 /*::header::*/
 header
@@ -174,8 +175,9 @@ nav h1
 {
     width:98%;
     margin: 0 auto;
-    background: #000;
     position:fixed;
+    bottom:0;
+    height: .44rem;
 }
 button
 {
@@ -183,22 +185,20 @@ button
 	border:solid 1px #5fc0cd;
 	background: #fff;
 	font-size:.17rem;
-	line-height: 3;
+	height: .44rem;
 	border-radius: .1rem;
 	-webkit-border-radius: .1rem;
     -moz-border-radius: .1rem;
 }
 .message
 {
-	position: fixed;
-    bottom:0;
+	position: absolute;
     left:1%;
 }
 .contact
 {
 	background: #5fc0cd;
 	color: #fff;
-	position: fixed;
-	bottom:0;
+	position:absolute;
     right:1%;
 }
