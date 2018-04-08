@@ -32,7 +32,6 @@ nav
 {
 	width: 100%;
 	background: #5fc0cd;
-	width:100%;
 	height:	.5rem;
 	position: fixed;
 	top: 0;
@@ -65,6 +64,7 @@ nav h1
 	height: .5rem;
 	margin: 0;
 	padding:  0;
+	display: inline;
 }
 /*:: article ::*/
 .person
@@ -114,17 +114,31 @@ nav h1
 	padding-left:.3rem;
 	border-bottom:solid 1px #e1e5e7;
 }
+/*.sk
+{
+	font-size:.16rem;
+	display: table;
+	padding-left:.3rem;	
+	table-layout: fixed;
+	width: 100%;
+}*/
 .skde
 {
 	font-size:.16rem;
 	height: .5rem;
 	line-height: .5rem;
-	margin-left:.3rem;
-	border-bottom:solid 1px #e1e5e7;
+	border-bottom:solid .01rem #e1e5e7;
 	vertical-align: middle;
-	display: table;
+	display:table;
 	width: 100%;
+	margin-left:.3rem;	
+	
 }
+/*.marginrow
+{
+	width: .3rem;	
+	display: table-cell;
+}*/
 .star
 {
 	background:url(img/s.png) no-repeat left center;
@@ -143,7 +157,6 @@ nav h1
 	display: table-cell;
 	text-align: left;
 	vertical-align: middle;
-	/*width:10px;*/
 }
 .skdetl
 {
