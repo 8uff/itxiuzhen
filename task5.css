@@ -17,7 +17,7 @@ body
 	width: 100%;
 	font-size:.18rem;
 	height: 100%;
-	padding-bottom: .44rem;
+	padding-bottom: .5rem;
 }
 /*::header::*/
 header
@@ -48,7 +48,7 @@ nav img
 	height: .5rem;
 	position: absolute;
 	top: 0;
-	left: 0;
+	left: .1rem;
 }
 nav h1
 {
@@ -131,14 +131,12 @@ nav h1
 	vertical-align: middle;
 	display:table;
 	width: 100%;
-	margin-left:.3rem;	
-	
 }
-/*.marginrow
+.marginrow
 {
 	width: .3rem;	
 	display: table-cell;
-}*/
+}
 .star
 {
 	background:url(img/s.png) no-repeat left center;
@@ -190,6 +188,9 @@ nav h1
     margin: 0 auto;
     position:fixed;
     bottom:0;
+    right:0;
+    left: 0;
+    margin: 0 auto;
     height: .44rem;
 }
 button
@@ -207,6 +208,7 @@ button
 {
 	position: absolute;
     left:1%;
+    color: #5fc0cd;
 }
 .contact
 {
