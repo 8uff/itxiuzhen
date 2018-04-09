@@ -117,23 +117,27 @@ nav h1
 .skde
 {
 	font-size:.16rem;
-	height: .5rem;
-	line-height: .5rem;
+	min-height: .5rem;
 	border-bottom:solid .01rem #e1e5e7;
-	vertical-align: middle;
-	width: 100%;
+	margin-left:.3rem;
 
 	display: -webkit-flex;
 	display:flex;
 	-webkit-flex-direction: row; 
     flex-direction: row;
     justify-content:flex-start;
+    -webkit-justify-content:flex-start;
+    flex-wrap:nowrap;
+    -webkit-flex-wrap:nowrap;
+    align-items:center;
+    -webkit-align-items:center;
+
 	
 }
-.marginrow
+/*.marginrow
 {
 	width: .3rem;	
-}
+}*/
 .star
 {
 	background:url(img/s.png) no-repeat left center;
@@ -141,7 +145,8 @@ nav h1
 	padding-left:.15rem;
 	text-align: left;
 	vertical-align: middle;
-	width: .49rem;
+	flex:0 0 .49rem;
+	-webkit-flex:0 0 .49rem;
 }
 .star1
 {
@@ -150,17 +155,23 @@ nav h1
 	padding-left:.15rem;
 	text-align: left;
 	vertical-align: middle;
+	flex:0 0 .49rem;
+	-webkit-flex:0 0 .49rem;
 }
 .skdetl
 {
 	color:#999999;
 	vertical-align: middle;
-	width: .64rem;
+	flex:0 0 .64rem;
+	-webkit-flex:0 0 .64rem;
+	align-self:center;
+	-webkit-align-self:center;
 }
 
 .sep
 {
-	width:.3rem;
+	flex:0 0 .3rem;
+	-webkit-flex:0 0 .3rem;
 	color:#e1e5e7;
 	text-align: center;
 }
