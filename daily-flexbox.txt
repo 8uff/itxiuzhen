@@ -30,7 +30,7 @@ Flexbox container 属性:
 flex-direction：row（默认）;| row-reverse;| column;| column-reverse;
 这个属性通过设置 flex container（flex容器） 的主轴方向，来指定 flex item（flex项） 在 flex container（flex容器） 中是如何布局的。flex item（flex项） 可以在两个主轴方向上排列布局，水平横向和垂直纵向两种。
 
-flex-wrap：nowrap(默认);| warp;| nowrap-reverse;
+flex-wrap：nowrap(默认);| wrap;| wrap-reverse;
 默认情况下，flexbox 理念是将容器中的所有子元素设置在一行中。flex-wrap属性可以控制 flex container（flex容器） 以单行还是多行布局其flex item（flex项），以及在新行上的排列方向。
 
 flex-flow：row nowrap;（默认）
