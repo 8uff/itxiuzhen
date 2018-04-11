@@ -1,10 +1,17 @@
 今天完成的事情：
-任务6实现
-学会background-position
-CSS Sprites雪碧图
+任务6导航部分实现。
+学习CSS Sprites雪碧图用法及相关知识
+background-position
 translate用法
-明天计划的事情：（一定要写非常细致的内容） 
-遇到的问题：（遇到什么困难，怎么解决的） 
+
+学习bootstrap
+
+明天计划的事情：
+继续任务6实现，继续学习bootstrap。
+遇到的问题：
+导航部分实现后打算用bootstrap重制，发现bootstrap元素与自定义元素冲突，实现更加复杂。
+导航部分内容用bootstrap没体现出bootstrap优势，继续用传统方法实现。
+通过继续深入学习bootstrap，看是否有更好的方法。
 收获：
 background-position：x | y
 translate：transform 属性向元素应用 2D 或 3D 转换。该属性允许我们对元素进行旋转、缩放、移动或倾斜。
@@ -31,3 +38,8 @@ skew(x-angle,y-angle)	定义沿着 X 和 Y 轴的 2D 倾斜转换。	测试
 skewX(angle)	定义沿着 X 轴的 2D 倾斜转换。	测试
 skewY(angle)	定义沿着 Y 轴的 2D 倾斜转换。	测试
 perspective(n)	为 3D 转换元素定义透视视图。
+
+CSS Sprites雪碧图好处：
+利用CSS Sprites能很好地减少网页的http请求，从而大大的提高页面的性能，这也是CSS Sprites最大的优点。
+在线雪碧图工具：
+https://www.toptal.com/developers/css/sprite-generator
