@@ -86,7 +86,37 @@ header
 	top: 0;
 	bottom: 0;	
 	margin: auto 0;
-	z-index: 4;
+}
+.patientdlist
+{
+	width:95%;
+	margin: 0 auto;
+}
+.dropdown
+{
+	position: relative;
+	padding: 0;
+	margin: 0;
+	background: url(img/l2.png) right center;
+}
+.parhref
+{
+	color: #d3d3d3;
+	background: #fff;
+}
+section ul li .parhref:focus,
+section ul li .parhref:hover
+{
+	color: #fff;
+	background: #55a8b3;
+}
+.caret
+{
+	position: absolute;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto 0;
 }
 /*
 .bg-d {
