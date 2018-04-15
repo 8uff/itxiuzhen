@@ -87,17 +87,25 @@ header
 	bottom: 0;	
 	margin: auto 0;
 }
+.navpl
+{
+	border-bottom: solid .01rem #d3d3d3;
+}
 .patientdlist
 {
 	width:95%;
 	margin: 0 auto;
 }
-.dropdown
+.patientdlist .dropdown
 {
 	position: relative;
 	padding: 0;
 	margin: 0;
-	background: url(img/l2.png) right center;
+}
+.patientdlist .patientsep
+{
+	background: url(img/l3.png) no-repeat right center;
+	background-size:.01rem 80% ;
 }
 .parhref
 {
@@ -105,18 +113,23 @@ header
 	background: #fff;
 }
 section ul li .parhref:focus,
-section ul li .parhref:hover
+section ul li .parhref:hover,
+section ul li .parhref:active
 {
-	color: #fff;
-	background: #55a8b3;
+	width: 100%;
+	color: #5fc0cd;
 }
 .caret
 {
 	position: absolute;
-	right: 0;
+	right: .2rem;
 	top: 0;
 	bottom: 0;
 	margin: auto 0;
+}
+.dropdown-menu
+{
+	width:100%;
 }
 /*
 .bg-d {
