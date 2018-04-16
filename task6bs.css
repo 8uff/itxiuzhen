@@ -102,16 +102,27 @@ header
 	padding: 0;
 	margin: 0;
 }
-.patientdlist .patientsep
+.patientdlist .patientsep:after
 {
+	content:"";
+	display: inline-block;
 	background: url(img/l3.png) no-repeat right center;
-	background-size:.01rem 80% ;
+	background-size:.01rem 80%;
+	width: .3rem;
+	height: 100%;
+	position: absolute;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto 0;
 }
 .parhref
 {
 	color: #d3d3d3;
 	background: #fff;
 }
+section ul li .parhref:link,
+section ul li .parhref:visited,
 section ul li .parhref:focus,
 section ul li .parhref:hover,
 section ul li .parhref:active
