@@ -12,6 +12,7 @@ body
 	margin:0;
 	padding:0;
 }
+/*:::顶部导航:::*/
 header
 {
 	background: #5fc0cd;
@@ -87,6 +88,7 @@ header
 	bottom: 0;	
 	margin: auto 0;
 }
+/*:::主内容导航:::*/
 .navpl
 {
 	border-bottom: solid .01rem #d3d3d3;
@@ -142,6 +144,39 @@ section ul li .parhref:active
 {
 	width:100%;
 }
+/*:::主要信息:::*/
+.time
+{
+
+}
+.price
+{
+	color:#ff0000;
+	padding: 0;
+}
+.time
+{
+	color: #d3d3d3;
+}
+.imgtime
+{
+	display: inline-block;
+	margin-right: .05rem;
+	width: 12px; height: 13px;
+    background: url('img/s1.png') -0 -45px;
+}
+.nloc
+{
+	color: #d3d3d3;
+}
+.imgnloc
+{
+	display: inline-block;
+	margin-right: .05rem;
+	width: 11px; height: 12px;
+    background: url('img/s1.png') -12px -45px;
+}
+/*
 /*
 .bg-d {
     width: 12px; height: 13px;
