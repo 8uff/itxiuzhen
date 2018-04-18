@@ -89,6 +89,13 @@ header
 	margin: auto 0;
 }
 /*:::主内容导航:::*/
+/*@media (min-width: 320px)
+{
+	.nav-justified li {
+    display: table-cell;
+    width: 1%;
+	}
+}*/
 .navpl
 {
 	border-bottom: solid .01rem #d3d3d3;
@@ -104,8 +111,10 @@ header
 	padding: 0;
 	margin: 0;
 }
-.patientdlist .patientsep:after
+@media (min-width: 768px)
 {
+	.patientdlist .patientsep:after
+    {
 	content:"";
 	display: inline-block;
 	background: url(img/l3.png) no-repeat right center;
@@ -117,6 +126,7 @@ header
 	top: 0;
 	bottom: 0;
 	margin: auto 0;
+    }
 }
 .parhref
 {
@@ -145,11 +155,7 @@ section ul li .parhref:active
 	width:100%;
 }
 /*:::主要信息:::*/
-.time
-{
-
-}
-.price
+.nprice
 {
 	color:#ff0000;
 	padding: 0;
@@ -175,6 +181,14 @@ section ul li .parhref:active
 	margin-right: .05rem;
 	width: 11px; height: 12px;
     background: url('img/s1.png') -12px -45px;
+}
+.ndetail
+{
+	margin: 0;
+	width: 100%;
+	padding-top:  .1rem;
+	padding-bottom: .1rem;
+	border-bottom: solid .01rem #d3d3d3;
 }
 /*
 /*
