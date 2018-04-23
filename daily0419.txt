@@ -1,36 +1,80 @@
 今天完成的事情：
-任务6主内容导航部分实现。
+任务6实现。
 学习bootstrap
 
 明天计划的事情：
-继续任务6实现，继续学习bootstrap。
+任务7实现，继续学习bootstrap。
 
 遇到的问题：
- boostrap导航折叠断点
+ 修改boostrap导航折叠断点
  通过媒体查询修改分隔小竖线出现宽度。
 
  给span设置margin padding 失效。
  原因：行内元素的内边距对左、右、下起作用。行内元素的外边距只对左、右起作用。
 
 
- 通过媒体查询设置当；浏览器宽度大于1200px时，页面内容不在自适应页浏览器宽度，固定为1200px。但是fixed元素宽度仍自适应，因为当position是fixed或absolute时，百分比是参考屏幕的宽度。
- 解决方法：通过媒体查询手动设置fixed元素宽度。
-下表总结了 Bootstrap 网格系统如何跨多个设备工作：
+收获：
 
-超小设备手机（<768px）	小型设备平板电脑（≥768px）	中型设备台式电脑（≥992px）	大型设备台式电脑（≥1200px）
-网格行为	一直是水平的	以折叠开始，断点以上是水平的	以折叠开始，断点以上是水平的	以折叠开始，断点以上是水平的
-最大容器宽度	None (auto)	750px	970px	1170px
-Class 前缀	.col-xs-	.col-sm-	.col-md-	.col-lg-
-列数量和	12	12	12	12
-最大列宽	Auto	60px	78px	95px
-间隙宽度	30px
-（一个列的每边分别 15px）	30px
-（一个列的每边分别 15px）	30px
-（一个列的每边分别 15px）	30px
-（一个列的每边分别 15px）
-可嵌套	Yes	Yes	Yes	Yes
-偏移量	Yes	Yes	Yes	Yes
-列排序	Yes	Yes	Yes	Yes
+学会如何通过覆盖bootstrap默认样式，显示出设计的效果。
+
+媒体查询
+@media mediatype and|not|only (media feature) {
+    CSS-Code;
+}
+media feature：
+aspect-ratio	定义输出设备中的页面可见区域宽度与高度的比率
+color	定义输出设备每一组彩色原件的个数。如果不是彩色设备，则值等于0
+color-index	定义在输出设备的彩色查询表中的条目数。如果没有使用彩色查询表，则值等于0
+device-aspect-ratio	定义输出设备的屏幕可见宽度与高度的比率。
+device-height	定义输出设备的屏幕可见高度。
+device-width	定义输出设备的屏幕可见宽度。
+grid	用来查询输出设备是否使用栅格或点阵。
+height	定义输出设备中的页面可见区域高度。
+max-aspect-ratio	定义输出设备的屏幕可见宽度与高度的最大比率。
+max-color	定义输出设备每一组彩色原件的最大个数。
+max-color-index	定义在输出设备的彩色查询表中的最大条目数。
+max-device-aspect-ratio	定义输出设备的屏幕可见宽度与高度的最大比率。
+max-device-height	定义输出设备的屏幕可见的最大高度。
+max-device-width	定义输出设备的屏幕最大可见宽度。
+max-height	定义输出设备中的页面最大可见区域高度。
+max-monochrome	定义在一个单色框架缓冲区中每像素包含的最大单色原件个数。
+max-resolution	定义设备的最大分辨率。
+max-width	定义输出设备中的页面最大可见区域宽度。
+min-aspect-ratio	定义输出设备中的页面可见区域宽度与高度的最小比率。
+min-color	定义输出设备每一组彩色原件的最小个数。
+min-color-index	定义在输出设备的彩色查询表中的最小条目数。
+min-device-aspect-ratio	定义输出设备的屏幕可见宽度与高度的最小比率。
+min-device-width	定义输出设备的屏幕最小可见宽度。
+min-device-height	定义输出设备的屏幕的最小可见高度。
+min-height	定义输出设备中的页面最小可见区域高度。
+min-monochrome	定义在一个单色框架缓冲区中每像素包含的最小单色原件个数
+min-resolution	定义设备的最小分辨率。
+min-width	定义输出设备中的页面最小可见区域宽度。
+monochrome	定义在一个单色框架缓冲区中每像素包含的单色原件个数。如果不是单色设备，则值等于0
+orientation	定义输出设备中的页面可见区域高度是否大于或等于宽度。
+resolution	定义设备的分辨率。如：96dpi, 300dpi, 118dpcm
+scan	定义电视类设备的扫描工序。
+width	定义输出设备中的页面可见区域宽度。
+
+Bootstrap 网格系统如何跨多个设备工作：
+
+超小设备手机（<768px）	
+网格行为	一直是水平的
+最大容器宽度	None (auto)
+.col-xs-
+小型设备平板电脑（≥768px）
+以折叠开始，断点以上是水平的	
+750px
+.col-sm-
+中型设备台式电脑（≥992px）	
+以折叠开始，断点以上是水平的
+970px
+.col-md-
+大型设备台式电脑（≥1200px）
+以折叠开始，断点以上是水平的
+1170px
+.col-lg-		
+
 
 text-overflow: clip|ellipsis|string;
 text-overflow 属性规定当文本溢出包含元素时发生的事情。
