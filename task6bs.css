@@ -265,6 +265,10 @@ footer
 	height: .48rem;
 	padding: 0;
 }
+.ftcss
+{
+	width:100%;
+}
 .btnmessage
 {
 	border: none;
