@@ -4,6 +4,10 @@ html
 	margin:0;
 	padding:0;
 }
+*/*:::去掉轮廓线:::*/
+{
+	outline:none;
+}
 /*@media (max-width:1200px)
 {*/
 	body
@@ -143,11 +147,11 @@ section
 {
 	border-bottom: solid .01rem #d3d3d3;
 }
-.patientdlist
+/*.patientdlist
 {
 	width:95%;
 	margin: 0 auto;
-}
+}*/
 .patientdlist .dropdown
 {
 	position: relative;
@@ -264,6 +268,10 @@ footer
 	text-align: center;
 	height: .48rem;
 	padding: 0;
+}
+button
+{
+	border: none;
 }
 .ftcss
 {
