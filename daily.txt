@@ -1,4 +1,5 @@
 今天完成的事情：
+任务6未通过内容修改。
 任务7部分实现。
 学习bootstrap
 
@@ -6,7 +7,7 @@
 继续任务7实现，继续学习bootstrap。
 
 遇到的问题：
-
+按钮点击时边框，通过修改设置outline去除。
 收获：
 
 outline 
@@ -17,3 +18,11 @@ outline 简写属性在一个声明中设置所有的轮廓属性。
 outline-color
 outline-style
 outline-width
+
+bootstrap响应式导航
+为了给导航栏添加响应式特性，要折叠的内容必须包裹在带有 class .collapse、.navbar-collapse 的 <div> 中。
+折叠起来的导航栏实际上是一个带有 class .navbar-toggle 及两个 data- 元素的按钮。第一个是 data-toggle，用于告诉 JavaScript 需要对按钮做什么，第二个是 data-target，指示要切换到哪一个元素。三个带有 class .icon-bar 的 <span> 创建所谓的汉堡按钮。这些会切换为 .nav-collapse <div> 中的元素。
+
+sr-only是给阅读障碍人士使用的。
+navbar-fixed-top：表示导航栏会跟着页面滚动，不会在页面往下移后就不见了，相同的还有navbar-fixed-bottom。 
+navbar-right：这个的作用是将导航栏上的组件定位到最右边，同样的还有navbar-left。
