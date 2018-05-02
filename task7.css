@@ -1,9 +1,24 @@
+*
+{
+	outline:none;
+	border:none;
+}
+header
+{
+	position: relative;
+}
 .mynavbar
 {
 	color: #fff;
 	background: #29bde0;
+	border: none;
+	float: left;
 }
-.myicon-bar
+.navbar-default .navbar-toggle .myicon-bar
 {
 	background: #fff;
+}
+.navbar-default .mycol li a
+{
+	color:#fff;
 }
