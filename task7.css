@@ -6,6 +6,7 @@
 header
 {
 	position: relative;
+	height: 50px;
 }
 .mynavbar
 {
@@ -21,4 +22,45 @@ header
 .navbar-default .mycol li a
 {
 	color:#fff;
+}
+/*:::section:::*/
+section
+{
+	width:100%;
+	padding:27px;
+	background: #f0f0f0;
+}
+.btnblk
+{
+	display: block;
+	width:100%;
+	height: 116px;
+	border:solid 1px #9a9a9a;
+	font-size:32px;
+	color: #9a9a9a;
+	position: relative;
+}
+.btnbg
+{
+	background: #fff;
+}
+.btnblk img
+{
+	height: 32px;
+	position: absolute;
+	right: 4px;
+	top: 0;
+	bottom: 0;
+	margin: auto 0;
+}
+.st
+{
+	background: #fff;
+	border:solid 1px #9a9a9a;
+}
+.sttitle
+{
+	height: 90px;
+	border-bottom: solid 1px #fbb435;
+	color: #fbb435;
 }
