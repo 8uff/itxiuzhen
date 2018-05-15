@@ -13,6 +13,7 @@ header
 {
 	background-color: #29bde0;
 	border: none;
+	position: relative;
 }
 .mynavbtn
 {
@@ -29,4 +30,24 @@ header
 	background-color:#fff;
 	width: 29px;
 	height: 2px;
+}
+.mynavbd
+{
+	font-size: 34px;
+	color:#fff;
+	display: inline-block;
+	text-align: center;
+	height: 40px;
+	line-height: 40px;
+    position:absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+.myremove
+{
+	color:#fff;
+	font-size:34px;
+	float: right;
 }
