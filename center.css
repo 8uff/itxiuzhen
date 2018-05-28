@@ -1,7 +1,8 @@
 .father1
 {
-	/*width：100%；*/
-	background: #ff0;
+	width:100%;
+	/*height: 200px;*/
+	background: #000;
 }
 .center1
 {
@@ -11,6 +12,7 @@
 	background: #f00;
 	text-align: center;
 	border:solid 1px #fff;
+	vertical-align: middle;
 }
 .center2
 {
@@ -42,9 +44,15 @@
 .center5
 {
 	display: inline-block;
-
 	background: #f00;
 	text-align: center;
 	vertical-align: middle;
 	border:solid 1px #fff;
+}
+.center6
+{
+	margin: 0 auto;
+	color: #fff;
+	text-align: center;
+	width: 50%;
 }
